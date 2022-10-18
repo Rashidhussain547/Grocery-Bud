@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #bdbdbd;
+}
+.bud-main {
+  text-align: center;
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  max-width: 560px;
+  margin-top: 128px;
+  box-shadow:  0px 54px 55px rgba(0, 0, 0, 0.25);
+  padding: 70px;
+  background-color: white;
+  border-radius: 5px;
+}
+.bud-main h2{
+    color: #2a8af7;
+    padding: 20px;
+    font-size: 40px;
+}
+.bud-main .bud-form input{
+    width: 80%;
+    padding: 5px;
+    border: none;
+    background-color: #d4d5d6;
+}
+.bud-main .bud-form span{
+    color: #f7050d;
+}
+.bud-main .bud-form .sub-btn{
+    width: 20%;
+    padding: 5px;
+    margin-left: -4px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #2a8af7;
+    /* letter-spacing: 2px; */
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.bud-main .bud-form .sub-btn:hover{
+    color: #ffff;
+    background-color: #147ff8;
+    transition: all ease 0.5s;
+}
+
+.bud-main .grocery-list-main .clr-btn{
+    border: none;
+    background-color: #ffff;
+    color: #f7050d;
+    letter-spacing: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.bud-main .grocery-list-main ul li{
+    text-align: left;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    transition: all ease 0.6s;
+    text-transform: capitalize;
+}
+.bud-main .grocery-list-main a{
+    color: #f7050d;
+    font-size: 15px;
+    text-decoration: none;
+}
+.bud-main .grocery-list-main ul{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5e5c5c;
+}
+.bud-main .grocery-list-main ul li:hover{
+    transition: all ease 0.6s;
+    background-color: #edebeb;
+    ;
+}

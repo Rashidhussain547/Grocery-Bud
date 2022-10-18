@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Rashid hussain b19103040 -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery bud</title>
+    <link rel="stylesheet" href="task1.css" />
+    <script src="task3.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="bud-main">
+      <h2>Grocery Bud</h2>
+      <div class="bud-form">
+        <form action="#">
+          <input type="text" placeholder="e.g: Bread" id="item" />
+          <button type="submit" class="sub-btn" onclick="addMore()">
+            Submit
+          </button>
+          <span id="errorMsg"></span>
+        </form>
+      </div>
+
+      <div class="grocery-list-main">
+        <div class="lists"><ul id="list"></ul></div>
+        <button class="clr-btn" id="clr" onclick="removeAll()"></button>
+      </div>
+    </div>
+  </body>
+</html>
